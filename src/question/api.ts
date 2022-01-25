@@ -1,4 +1,4 @@
-import {Question} from "../types";
+import {Question} from "./types";
 
 export default {
   list: (): Promise<Question[]> =>
@@ -7,7 +7,7 @@ export default {
         category: "Entertainment: Books",
         type: "multiple",
         difficulty: "easy",
-        question: "Who wrote the novel &#039;Fear And Loathing In Las Vegas&#039;?",
+        question: "Who wrote the novel &#39;Fear And Loathing In Las Vegas&#039;?",
         correct_answer: "Hunter S. Thompson",
         incorrect_answers: ["F. Scott Fitzgerald", "Henry Miller", "William S. Burroughs"],
       },
